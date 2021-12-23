@@ -1,0 +1,16 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] dev-util/ninja >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=games-strategy/spring:* >=sys-devel/gcc-4.6.0 >=dev-util/cmake-2.6.0 x11-libs/libXpm x11-libs/libXScrnSaver x11-libs/fltk[threads,xft] media-gfx/graphicsmagick[png] dev-libs/boost net-misc/curl dev-libs/jsoncpp
+DESCRIPTION=flobby is a spring (http://springrts.com) lobby client written in C++
+EAPI=8
+HOMEPAGE=https://github.com/cleanrock/flobby
+INHERIT=git-r3 cmake flag-o-matic
+IUSE=pr-downloader
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=games-strategy/spring:*
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4b66d835ec72e021e359bb81eacfe988	flag-o-matic	d5e1306543bc457213f68bb18f830d14	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	cmake	11fee991ab428a3370e5c20fa8231fb6
+_md5_=b9295ef928ab6e7eb16fa920d3bdbe65

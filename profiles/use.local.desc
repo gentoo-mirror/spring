@@ -1,0 +1,15 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+games-strategy/spring:ai - Compile multiple additional Artificial Intelligences for SinglePlayer
+games-strategy/spring:custom-cflags - Disables engine's CXXFLAGS stripping (this will for sure break online gaming!)
+games-strategy/spring:custom-march - Sets gcc's `-march=` to current CXXFLAGS one (may break online gaming!)
+games-strategy/spring:dedicated - A dedicated server build (runs no simulation, just broadcasts netcommands)
+games-strategy/spring:default - Default engine (that's what you want)
+games-strategy/spring:headless - A engine build, that doesn't render anything to screen but still runs the full simulations (e.g. used to test AIs, benchmarks, ...)
+games-strategy/spring:java - Compile Java-based AIs
+games-strategy/spring:lto - Enable link-time-optimizations (may break online gaming!)
+games-strategy/spring:test-ai - A Null-AI (justs for testing/learning, does nothing)
+games-strategy/spring:threaded - Enable threadpools
+games-util/flobby:pr-downloader - If pr-downloader should be built and installed. Not needed when it is installed with Spring itself. This flag doesn't disable pr-downloader integration, pr-downloader must be installed nevertheless.
